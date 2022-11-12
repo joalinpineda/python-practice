@@ -8,12 +8,14 @@ write out the year (and therefore be out of date the next year).
 
 """
 
+
 def future_age(age):
-    """"Returns the user age in one hundred years."""
+    """"Returns year in which the user will be 100 years old."""
 
     actual_year = 2022
-    age_in_a_hundred_years = actual_year - age + 100
-    return age_in_a_hundred_years
+    future_year = actual_year - age + 100
+    return future_year
+
 
 if __name__ == '__main__':
     print('Welcome!')
